@@ -138,7 +138,7 @@ module.exports = {
     {
       files: ['*.d.ts'],
       rules: {
-        'import/no-duplicates': ['error', {prefer-inline: true}],
+        'import/no-duplicates': ['error', {'prefer-inline': true}],
       },
     },
     {
