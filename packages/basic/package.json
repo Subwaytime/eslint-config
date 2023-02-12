@@ -1,6 +1,6 @@
 {
 	"name": "@subwaytime/eslint-config-basic",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"author": "Subwaytime <leon.l@nophase.de>",
 	"repository": {
 		"type": "git",
