@@ -152,7 +152,7 @@ module.exports = {
     'no-sequences': 'error',
     'no-shadow-restricted-names': 'error',
     'no-sparse-arrays': 'error',
-    'no-tabs': 'error',
+    'no-tabs': ['error' { allowIndentationTabs: true }],
     'no-template-curly-in-string': 'error',
     'no-this-before-super': 'error',
     'no-throw-literal': 'error',
@@ -187,7 +187,7 @@ module.exports = {
     'no-void': 'error',
     'no-whitespace-before-property': 'error',
     'no-with': 'error',
-    'object-curly-newline': ['error', 'always']
+    'object-curly-newline': ['error', 'always'],
     'object-curly-spacing': ['error', 'always'],
     'object-property-newline': ['error', { allowMultiplePropertiesPerLine: true }],
     'one-var': ['error', { initialized: 'never' }],

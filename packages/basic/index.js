@@ -54,7 +54,7 @@ module.exports = {
         'jsonc/indent': ['error', 2],
         'jsonc/key-spacing': ['error', { beforeColon: false, afterColon: true }],
         'jsonc/no-octal-escape': 'error',
-        'jsonc/object-curly-newline': ['error', 'always']
+        'jsonc/object-curly-newline': ['error', 'always'],
         'jsonc/object-curly-spacing': ['error', 'always'],
         'jsonc/object-property-newline': ['error', { allowMultiplePropertiesPerLine: true }],
       },
