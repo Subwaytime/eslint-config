@@ -1,42 +1,42 @@
 {
-  "name": "@subwaytime/eslint-config",
-  "version": "0.0.3",
-  "description": "Subwaytime's private ESLINT Configuration",
-  "author": "Subwaytime <leon.l@nophase.de>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/subwaytime/eslint-config"
-  },
-  "homepage": "https://github.com/subwaytime/eslint-config#readme",
-  "bugs": "https://github.com/subwaytime/eslint-config/issues",
-  "license": "MIT",
-  "keywords": [
-    "eslint-config"
-  ],
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
-  },
-  "dependencies": {
-    "@subwaytime/eslint-config-vue": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^5.51.0",
-    "@typescript-eslint/parser": "^5.51.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-html": "^7.1.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsonc": "^2.6.0",
-    "eslint-plugin-n": "^15.6.1",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-unicorn": "^45.0.2",
-    "eslint-plugin-vue": "^9.9.0",
-    "eslint-plugin-yml": "^1.5.0",
-    "jsonc-eslint-parser": "^2.1.0",
-    "yaml-eslint-parser": "^1.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.34.0"
-  }
+	"name": "@subwaytime/eslint-config",
+	"version": "0.0.3",
+	"description": "Subwaytime's private ESLINT Configuration",
+	"author": "Subwaytime <leon.l@nophase.de>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/subwaytime/eslint-config"
+	},
+	"homepage": "https://github.com/subwaytime/eslint-config#readme",
+	"bugs": "https://github.com/subwaytime/eslint-config/issues",
+	"license": "MIT",
+	"keywords": [
+		"eslint-config"
+	],
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"peerDependencies": {
+		"eslint": ">=7.4.0"
+	},
+	"dependencies": {
+		"@subwaytime/eslint-config-vue": "workspace:*",
+		"@typescript-eslint/eslint-plugin": "^5.51.0",
+		"@typescript-eslint/parser": "^5.51.0",
+		"eslint-plugin-eslint-comments": "^3.2.0",
+		"eslint-plugin-html": "^7.1.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-jsonc": "^2.6.0",
+		"eslint-plugin-n": "^15.6.1",
+		"eslint-plugin-promise": "^6.1.1",
+		"eslint-plugin-unicorn": "^45.0.2",
+		"eslint-plugin-vue": "^9.9.0",
+		"eslint-plugin-yml": "^1.5.0",
+		"jsonc-eslint-parser": "^2.1.0",
+		"yaml-eslint-parser": "^1.1.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.34.0"
+	}
 }
