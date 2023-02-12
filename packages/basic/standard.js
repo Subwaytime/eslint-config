@@ -60,7 +60,7 @@ module.exports = {
     'eqeqeq': ['error', 'always', { null: 'ignore' }],
     'func-call-spacing': ['error', 'never'],
     'generator-star-spacing': ['error', { before: true, after: true }],
-    'indent': ['error', 2, {
+    'indent': ['error', 'tab', {
       SwitchCase: 1,
       VariableDeclarator: 1,
       outerIIFEBody: 1,
@@ -226,7 +226,7 @@ module.exports = {
     'import/export': 'error',
     'import/first': 'error',
     'import/no-absolute-path': ['error', { esmodule: true, commonjs: true, amd: false }],
-    'import/no-duplicates': 'error',
+    'import/no-duplicates': ['error', {prefer-inline: true}],
     'import/no-named-default': 'error',
     'import/no-webpack-loader-syntax': 'error',
 

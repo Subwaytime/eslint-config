@@ -51,7 +51,7 @@ module.exports = {
         'jsonc/array-bracket-spacing': ['error', 'never'],
         'jsonc/comma-dangle': ['error', 'never'],
         'jsonc/comma-style': ['error', 'last'],
-        'jsonc/indent': ['error', 2],
+        'jsonc/indent': ['error', 'tab'],
         'jsonc/key-spacing': ['error', { beforeColon: false, afterColon: true }],
         'jsonc/no-octal-escape': 'error',
         'jsonc/object-curly-newline': ['error', 'always'],
@@ -138,7 +138,7 @@ module.exports = {
     {
       files: ['*.d.ts'],
       rules: {
-        'import/no-duplicates': 'off',
+        'import/no-duplicates': ['error', {prefer-inline: true}],
       },
     },
     {
@@ -195,6 +195,7 @@ module.exports = {
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
+    'import/no-default-export': 'error',
 
     // Common
     'semi': ['error', 'never'],
@@ -222,7 +223,7 @@ module.exports = {
     'no-cond-assign': ['error', 'always'],
     'func-call-spacing': ['off', 'never'],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
-    'indent': ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
+    'indent': ['error', 'tab', { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
     'no-restricted-syntax': [
       'error',
       'DebuggerStatement',
