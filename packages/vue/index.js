@@ -57,6 +57,7 @@ module.exports = {
     }],
     'vue/component-name-in-template-casing': ['error', 'kebab-case'],
     'vue/component-options-name-casing': ['error', 'kebab-case'],
+    "vue/component-api-style": ["error",["script-setup"]],
     'vue/custom-event-name-casing': ['error', 'camelCase'],
     'vue/define-macros-order': ['error', {
       order: ['defineProps', 'defineEmits'],
@@ -68,6 +69,7 @@ module.exports = {
     'vue/no-useless-v-bind': 'error',
     'vue/padding-line-between-blocks': ['error', 'always'],
     'vue/prefer-separate-static-class': 'error',
+
 
     // extensions
     'vue/array-bracket-spacing': ['error', 'never'],
