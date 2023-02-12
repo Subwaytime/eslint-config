@@ -1,0 +1,31 @@
+{
+  "name": "@subwaytime/eslint-config-vue",
+  "version": "0.0.1",
+  "author": "Subwaytime <leon.l@nophase.de>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subwaytime/eslint-config"
+  },
+  "homepage": "https://github.com/subwaytime/eslint-config#readme",
+  "bugs": "https://github.com/subwaytime/eslint-config/issues",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@subwaytime/eslint-config-basic": "workspace:*",
+    "@subwaytime/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.9.0",
+    "local-pkg": "^0.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  }
+}

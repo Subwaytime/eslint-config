@@ -1,0 +1,25 @@
+{
+  "name": "@subwaytime/eslint-config-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@7.27.0",
+  "license": "MIT",
+  "author": "Subwaytime <leon.l@nophase.de>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subwaytime/eslint-config"
+  },
+  "homepage": "https://github.com/subwaytime/eslint-config#readme",
+  "bugs": "https://github.com/subwaytime/eslint-config/issues",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "pnpm -r run test",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "rimraf": "^4.1.2",
+    "typescript": "^4.9.5"
+  }
+}

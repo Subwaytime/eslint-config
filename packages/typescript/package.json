@@ -1,0 +1,32 @@
+{
+  "name": "@subwaytime/eslint-config-ts",
+  "version": "0.0.1",
+  "author": "Subwaytime <leon.l@nophase.de>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subwaytime/eslint-config"
+  },
+  "homepage": "https://github.com/subwaytime/eslint-config#readme",
+  "bugs": "https://github.com/subwaytime/eslint-config/issues",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@subwaytime/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint-plugin-jest": "^27.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  }
+}
