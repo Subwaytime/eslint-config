@@ -35,7 +35,7 @@ module.exports = {
     }],
     'arrow-spacing': ['error', { before: true, after: true }],
     'block-spacing': ['error', 'always'],
-    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
+    'brace-style': ['error', '1tbs', { allowSingleLine: false }],
     'camelcase': ['error', {
       allow: ['^UNSAFE_'],
       properties: 'never',
@@ -187,7 +187,7 @@ module.exports = {
     'no-void': 'error',
     'no-whitespace-before-property': 'error',
     'no-with': 'error',
-    'object-curly-newline': ['error', { multiline: true, consistent: true }],
+    'object-curly-newline': ['error', 'always']
     'object-curly-spacing': ['error', 'always'],
     'object-property-newline': ['error', { allowMultiplePropertiesPerLine: true }],
     'one-var': ['error', { initialized: 'never' }],

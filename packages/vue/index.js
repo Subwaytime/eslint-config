@@ -95,7 +95,7 @@ module.exports = {
       'WithStatement',
     ],
     'vue/no-sparse-arrays': 'error',
-    'vue/object-curly-newline': ['error', { always: true, consistent: true }],
+    'vue/object-curly-newline': ['error', 'always'],
     'vue/object-curly-spacing': ['error', 'always'],
     'vue/object-property-newline': ['error', { allowMultiplePropertiesPerLine: true }],
     'vue/object-shorthand': [
