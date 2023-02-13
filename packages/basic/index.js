@@ -198,7 +198,8 @@ module.exports = {
     'import/no-default-export': 'error',
 
     // Common
-    'semi': ['error', 'never'],
+    'semi': ['error', 'always'],
+    'no-extra-semi': 'error',
     'curly': ['error', 'all'],
     'quotes': ['error', 'single'],
     'quote-props': ['error', 'consistent-as-needed'],
