@@ -1,5 +1,5 @@
 module.exports = {
-  extends: [
-    '@subwaytime/eslint-config-vue',
-  ],
+	extends: [
+		'@subwaytime/eslint-config-vue',
+	],
 }
