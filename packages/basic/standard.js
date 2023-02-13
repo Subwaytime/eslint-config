@@ -188,8 +188,8 @@ module.exports = {
 		'no-whitespace-before-property': 'error',
 		'no-with': 'error',
 		'object-curly-newline': ['error', {
-			"ObjectExpression": "consistent",
-			"ObjectPattern": "consistent",
+			"ObjectExpression": { multiline: true, consistent: true },
+			"ObjectPattern": { multiline: true, consistent: true },
 			"ImportDeclaration": "never",
 			"ExportDeclaration": "always"
 		}],

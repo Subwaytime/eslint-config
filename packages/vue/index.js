@@ -98,8 +98,8 @@ module.exports = {
 		],
 		'vue/no-sparse-arrays': 'error',
 		'vue/object-curly-newline': ['error', {
-			"ObjectExpression": "consistent",
-			"ObjectPattern": "consistent",
+			"ObjectExpression": { multiline:true, consistent: true },
+			"ObjectPattern": { multiline:true, consistent: true },
 			"ImportDeclaration": "never",
 			"ExportDeclaration": "always"
 		}],
