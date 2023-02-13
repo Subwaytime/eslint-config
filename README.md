@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/npm/v/@subwaytime/eslint-config?color=222&style=flat-square">
 </a>
 
-- Single quotes, no semi
+- Single quotes
 - Auto fix for formatting (aimed to be used standalone without Prettier)
 - Designed to work with TypeScript, Vue out-of-box
 - Lint also for json, yaml, markdown
