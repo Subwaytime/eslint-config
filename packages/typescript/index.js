@@ -120,7 +120,7 @@ module.exports = {
 		'brace-style': 'off',
 		'@typescript-eslint/brace-style': ['error', 'stroustrup', { allowSingleLine: false }],
 		'comma-dangle': 'off',
-		'@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
+		'@typescript-eslint/comma-dangle': ['error', 'never'],
 		'object-curly-spacing': 'off',
 		'@typescript-eslint/object-curly-spacing': ['error', 'always'],
 		'semi': 'off',
