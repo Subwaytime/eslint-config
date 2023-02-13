@@ -1,6 +1,6 @@
 {
 	"name": "@subwaytime/eslint-config",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "Subwaytime's private ESLINT Configuration",
 	"author": "Subwaytime <leon.l@nophase.de>",
 	"repository": {
