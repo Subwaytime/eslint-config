@@ -69,7 +69,7 @@ module.exports = {
 		'vue/no-useless-v-bind': 'error',
 		'vue/padding-line-between-blocks': ['error', 'always'],
 		'vue/prefer-separate-static-class': 'error',
-
+		'vue/html-indent': ['error', 'tab'],
 
 		// extensions
 		'vue/array-bracket-spacing': ['error', 'never'],
