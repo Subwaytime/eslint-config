@@ -18,8 +18,8 @@
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
-    "eslint": "^8.34.0",
-    "rimraf": "^4.1.2",
-    "typescript": "^4.9.5"
+    "eslint": "^8.41.0",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.0.4"
   }
 }
