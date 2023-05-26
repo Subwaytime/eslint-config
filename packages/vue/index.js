@@ -58,6 +58,7 @@ module.exports = {
 		'vue/component-name-in-template-casing': ['error', 'kebab-case'],
 		'vue/component-options-name-casing': ['error', 'kebab-case'],
 		"vue/component-api-style": ["error", ["script-setup"]],
+		'vue/no-unused-refs': 'error',
 		'vue/custom-event-name-casing': ['error', 'camelCase'],
 		'vue/define-macros-order': ['error', {
 			order: ['defineProps', 'defineEmits'],
