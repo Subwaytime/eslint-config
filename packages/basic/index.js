@@ -228,7 +228,7 @@ module.exports = {
 
 		'no-param-reassign': 'off',
 		'array-bracket-spacing': ['error', 'never'],
-		'brace-style': ['error', 'stroustrup', { allowSingleLine: false }],
+		'brace-style': ['error', '1tbs', { allowSingleLine: false }],
 		'block-spacing': ['error', 'always'],
 		'camelcase': 'off',
 		'comma-spacing': ['error', { before: false, after: true }],

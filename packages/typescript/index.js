@@ -119,7 +119,7 @@ module.exports = {
 		'no-use-before-define': 'off',
 		'@typescript-eslint/no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
 		'brace-style': 'off',
-		'@typescript-eslint/brace-style': ['error', 'stroustrup', { allowSingleLine: false }],
+		'@typescript-eslint/brace-style': ['error', '1tbs', { allowSingleLine: false }],
 		'comma-dangle': 'off',
 		'@typescript-eslint/comma-dangle': ['error', 'never'],
 		'object-curly-spacing': 'off',

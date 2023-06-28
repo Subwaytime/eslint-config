@@ -76,7 +76,7 @@ module.exports = {
 		'vue/array-bracket-spacing': ['error', 'never'],
 		'vue/arrow-spacing': ['error', { before: true, after: true }],
 		'vue/block-spacing': ['error', 'always'],
-		'vue/brace-style': ['error', 'stroustrup', { allowSingleLine: false }],
+		'vue/brace-style': ['error', '1tbs', { allowSingleLine: false }],
 		'vue/comma-dangle': ['error', 'never'],
 		'vue/comma-spacing': ['error', { before: false, after: true }],
 		'vue/comma-style': ['error', 'last'],
